@@ -66,7 +66,7 @@ int main() {
         sb.push_back(b[i]);
     }
 
-    uniform_int_distribution<int> distributionp(0, 100);
+    uniform_int_distribution<int> distributionp(1, 100);
     int p = distributionp(generator);
 
     for(int o = 0; o < p; o++){
